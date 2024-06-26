@@ -35,7 +35,7 @@ Here are some ideas to get you started:
 # 📊GitHub Stats :
 
 <a href="https://github.com/Mario-Benedict">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=Mario-Benedict&theme=radical&hide_border=false&line_height=27&include_all_commits=false&count_private=false" alt="" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=Mario-Benedict&theme=radical&line_height=20&hide_border=false&include_all_commits=false&count_private=false" alt="" />
 </a>
 
 <a href="https://github.com/Mario-Benedict">
