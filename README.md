@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Mario Benedict</h1>
+<h1 align="center">Hi <img src="https://raw.githubusercontent.com/JosephJoshua/JosephJoshua/main/docs/assets/wave.gif" alt="" width="30px" height="30px">, I'm Mario Benedict</h1>
 
 <h3 align="center">I am a Cyber Security Enthusiast and Software Engineer with a passion for Reverse Engineering and Binary Exploitation. I enjoy building robust backend systems and exploring emerging technologies like Blockchain and Machine Learning.</h3>
 
