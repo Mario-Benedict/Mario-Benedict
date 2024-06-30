@@ -44,7 +44,7 @@ const RootLayout = ({
 }>) => {
   return (
     <html lang="en">
-      <body className={`${mulish.variable} ${poppins.variable} pb-8`}>
+      <body className={`${mulish.variable} ${poppins.variable} pb-8 h-[1000px]`}>
         <Header />
         {children}
         <Footer />

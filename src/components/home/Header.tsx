@@ -1,3 +1,5 @@
+'use client';
+
 import BaseProps from '@/types/BaseProps';
 
 import cslx from 'clsx';
@@ -6,17 +8,35 @@ import { FiHome, FiImage } from 'react-icons/fi';
 import { LuUser2 } from 'react-icons/lu';
 import { FaRegFileAlt, FaTimes } from 'react-icons/fa';
 import { MdOutlineMessage } from 'react-icons/md';
-import { AiOutlineAppstore } from 'react-icons/ai';
+import { useEffect, useState } from 'react';
+import useWindowEvent from '@/hooks/useWindowEvent';
 
 type HeaderProps = BaseProps;
 
+const getShouldPopUp = () => {
+  if (window == null) return false;
+
+  const THRESHOLD = 50;
+  return window.scrollY >= THRESHOLD;
+};
+
 const Header = ({ className, id }: HeaderProps) => {
+  const [popUp, setPopUp] = useState<boolean>(false);
+
+  const handleScroll = () => {
+    setPopUp(getShouldPopUp());
+  }
+
+  useEffect(handleScroll, []);
+  useWindowEvent('scroll', handleScroll);
+
   return (
     <header
       id={id}
       className={cslx(
         'flex justify-between items-center sticky top-0 inset-x-0 px-12 py-5 z-10 gap-6',
         'transition-all duration-300 ease-in-out',
+        popUp && 'backdrop-blur-md bg-white/80 shadow',
         className,
       )}
     >
