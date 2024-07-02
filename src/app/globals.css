@@ -30,12 +30,6 @@ html {
   @apply scroll-smooth;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
-
 @layer components {
   .page-section {
     @apply mx-auto max-w-4xl;

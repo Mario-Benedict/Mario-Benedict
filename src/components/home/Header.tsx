@@ -25,7 +25,7 @@ const Header = ({ className, id }: HeaderProps) => {
 
   const handleScroll = () => {
     setPopUp(getShouldPopUp());
-  }
+  };
 
   useEffect(handleScroll, []);
   useWindowEvent('scroll', handleScroll);
@@ -47,31 +47,36 @@ const Header = ({ className, id }: HeaderProps) => {
       <nav className="hidden md:flex justify-end font-semibold text-lg gap-8">
         <a href="#home" className="nav__link">
           <div className="flex gap-2 justify-center items-center">
-            <FiHome /> Home
+            <FiHome />
+            <span>Home</span>
           </div>
         </a>
 
         <a href="#about" className="nav__link">
           <div className="flex gap-2 justify-center items-center">
-            <LuUser2 /> About
+            <LuUser2 />
+            <span>About</span>
           </div>
         </a>
 
         <a href="#skills" className="nav__link">
           <div className="flex gap-2 justify-center items-center">
-            <FaRegFileAlt /> Skills
+            <FaRegFileAlt />
+            <span>Skills</span>
           </div>
         </a>
 
         <a href="#portfolio" className="nav__link">
           <div className="flex gap-2 justify-center items-center">
-            <FiImage /> Portfolio
+            <FiImage />
+            <span>Portfolio</span>
           </div>
         </a>
 
         <a href="#contact" className="nav__link">
           <div className="flex gap-2 justify-center items-center">
-            <MdOutlineMessage /> Contact
+            <MdOutlineMessage />
+            <span>Contact</span>
           </div>
         </a>
       </nav>
