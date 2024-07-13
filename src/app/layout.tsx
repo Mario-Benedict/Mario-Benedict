@@ -43,7 +43,7 @@ const RootLayout = ({
   children: React.ReactNode;
 }>) => {
   return (
-    <html lang="en">
+    <html lang='en'>
       <body className={`${mulish.variable} ${poppins.variable} pb-8 h-[1000px]`}>
         <Header />
         {children}

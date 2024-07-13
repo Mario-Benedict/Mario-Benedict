@@ -40,40 +40,40 @@ const Header = ({ className, id }: HeaderProps) => {
         className,
       )}
     >
-      <a href="#" className="font-bold text-lg">
+      <a href="#" className='font-bold text-lg'>
         Mario Benedict
       </a>
 
-      <nav className="hidden md:flex justify-end font-semibold text-lg gap-8">
-        <a href="#home" className="nav__link">
-          <div className="flex gap-2 justify-center items-center">
+      <nav className='hidden md:flex justify-end font-semibold text-lg gap-8'>
+        <a href='#home'>
+          <div className='flex gap-2 justify-center items-center'>
             <FiHome />
             <span>Home</span>
           </div>
         </a>
 
-        <a href="#about" className="nav__link">
+        <a href='#about'>
           <div className="flex gap-2 justify-center items-center">
             <LuUser2 />
             <span>About</span>
           </div>
         </a>
 
-        <a href="#skills" className="nav__link">
+        <a href='#skills'>
           <div className="flex gap-2 justify-center items-center">
             <FaRegFileAlt />
             <span>Skills</span>
           </div>
         </a>
 
-        <a href="#portfolio" className="nav__link">
+        <a href='#portfolio'>
           <div className="flex gap-2 justify-center items-center">
             <FiImage />
             <span>Portfolio</span>
           </div>
         </a>
 
-        <a href="#contact" className="nav__link">
+        <a href='#contact'>
           <div className="flex gap-2 justify-center items-center">
             <MdOutlineMessage />
             <span>Contact</span>
