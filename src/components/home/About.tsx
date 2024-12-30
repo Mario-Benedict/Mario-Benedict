@@ -36,7 +36,7 @@ const About = ({ id, className }: AboutProps) => {
       <PageSection className="relative text-lg sm:text-xl md:text-2xl z-10 space-y-6">
         <div>
           <p className="text-gray-800 mt-4 leading-relaxed">
-            I'm a software engineer with a strong focus on backend development. I am passionate about building
+            I am a software engineer with a strong focus on backend development. I am passionate about building
             scalable and efficient systems that power web applications and APIs. In addition to my backend expertise, I am
             also a cybersecurity enthusiast, constantly exploring the latest trends and techniques to enhance security
             across all layers of technology.
