@@ -59,13 +59,6 @@ const Header = ({ className, id }: HeaderProps) => {
           </div>
         </a>
 
-        <a href='#skills'>
-          <div className="flex gap-2 justify-center items-center">
-            <FaRegFileAlt />
-            <span>Skills</span>
-          </div>
-        </a>
-
         <a href='#portfolio'>
           <div className="flex gap-2 justify-center items-center">
             <FiImage />
