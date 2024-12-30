@@ -59,7 +59,7 @@ const Introduction = (props: IntroductionProps) => {
               src={language.icon}
               alt={language.name}
               title={language.name}
-              className="rounded w-8"
+              className="rounded w-8 hover:scale-125 transform transition-transform duration-300"
             />
           ))}
         </div>
