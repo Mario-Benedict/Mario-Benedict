@@ -11,7 +11,7 @@ const PageSection = ({ className, id, as = 'section', children }: PageSectionPro
   const Component = as;
 
   return (
-    <Component className={clsx('mx-auto p-3 w-full max-w-7xl', className)} id={id}>
+    <Component className={clsx('mx-auto p-6 w-full max-w-5xl', className)} id={id}>
       {children}
     </Component>
   );
